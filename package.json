@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/faker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A set of packages that generates fake data for you.",
   "license": "MIT",
   "repository": "faker-javascript/faker",
@@ -15,8 +15,7 @@
     "node": ">=12"
   },
   "files": [
-    "index.js",
-    "packages.js"
+    "index.js"
   ],
   "keywords": [
     "fakerjs",
