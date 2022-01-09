@@ -1,0 +1,39 @@
+{
+  "name": "@fakerjs/faker",
+  "version": "1.0.0",
+  "description": "A set of packages that generates fake data for you.",
+  "license": "MIT",
+  "repository": "faker-javascript/faker",
+  "author": {
+    "name": "Sergey Romanenko",
+    "email": "awilum@msn.com",
+    "url": "https://github.com/Awilum"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fakerjs",
+    "faker",
+    "fake",
+    "random",
+    "generator"
+  ],
+  "dependencies": {
+    "@fakerjs/boolean": "*",
+    "@fakerjs/integer": "*",
+    "@fakerjs/animal": "*",
+    "@fakerjs/age": "*",
+    "@fakerjs/float": "*",
+    "@fakerjs/gender": "*",
+    "@fakerjs/ip": "*",
+    "@fakerjs/letter": "*",
+    "@fakerjs/string": "*",
+    "@fakerjs/profession": "*"
+  }
+}
