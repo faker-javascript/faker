@@ -1,6 +1,6 @@
 <h1 align="center">Faker</h1>
 <p align="center">
-A set of packages that generates fake data for you.
+A set of javascript packages that generates fake data for you.
 </p>
 
 <p align="center">
@@ -17,13 +17,13 @@ $ npm install --save @fakerjs/faker
 ```js
 import faker from '@fakerjs/faker';
 
-faker.fakeAnimal();
+faker.animal();
 //=> Snow Leopard
 
-faker.fakeGender();
+faker.gender();
 //=> Female
 
-faker.fakeProfession();
+faker.profession();
 //=> Software Engineer
 ```
 

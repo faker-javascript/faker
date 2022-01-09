@@ -1,45 +1,25 @@
-import fakeBoolean from '@fakerjs/boolean';
-import fakeInteger from '@fakerjs/integer';
-import fakeFloat from '@fakerjs/float';
-import fakeAge from '@fakerjs/age';
-import fakeAnimal from '@fakerjs/animal';
-import fakeGender from '@fakerjs/gender';
-import fakeIP from '@fakerjs/ip';
-import fakeLetter from '@fakerjs/letter';
-import fakeString from '@fakerjs/string';
-import fakeProfession from '@fakerjs/profession';
+import boolean from '@fakerjs/boolean';
+import integer from '@fakerjs/integer';
+import float from '@fakerjs/float';
+import age from '@fakerjs/age';
+import animal from '@fakerjs/animal';
+import gender from '@fakerjs/gender';
+import ip from '@fakerjs/ip';
+import letter from '@fakerjs/letter';
+import string from '@fakerjs/string';
+import profession from '@fakerjs/profession';
 
 class Faker {
-    fakeBoolean() {
-        return fakeBoolean();
-    }
-    fakeInteger() {
-        return fakeInteger();
-    }
-    fakeFloat() {
-        return fakeFloat();
-    }
-    fakeAge() {
-        return fakeAge();
-    }
-    fakeGender() {
-        return fakeGender();
-    }
-    fakeIP() {
-        return fakeIP();
-    }
-    fakeLetter() {
-        return fakeLetter();
-    }
-    fakeString() {
-        return fakeString();
-    }
-    fakeProfession() {
-        return fakeProfession();
-    }
-    fakeAnimal() {
-        return fakeAnimal();
-    }
+    boolean() { return boolean(); }
+    integer() { return integer(); }
+    float() { return float(); }
+    age() { return age(); }
+    gender() { return gender(); }
+    ip() { return ip(); }
+    letter() { return letter(); }
+    string() { return string(); }
+    profession() { return profession(); }
+    animal() { return animal(); }
 }
 
 let faker = new Faker();
