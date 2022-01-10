@@ -25,6 +25,8 @@ faker.gender();
 
 faker.profession();
 //=> Software Engineer
+
+// etc...
 ```
 
 [Browse all faker javascript packages](https://github.com/faker-javascript)

@@ -11,15 +11,15 @@ import profession from '@fakerjs/profession';
 
 class Faker {
     boolean() { return boolean(); }
-    integer() { return integer(); }
-    float() { return float(); }
-    age() { return age(); }
-    gender() { return gender(); }
+    integer(options) { return integer(options); }
+    float(options) { return float(options); }
+    age(options) { return age(options); }
+    gender(options) { return gender(options); }
     ip() { return ip(); }
-    letter() { return letter(); }
-    string() { return string(); }
-    profession() { return profession(); }
-    animal() { return animal(); }
+    letter(options) { return letter(options); }
+    string(options) { return string(options); }
+    profession(options) { return profession(options); }
+    animal(options) { return animal(options); }
 }
 
 let faker = new Faker();
