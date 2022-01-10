@@ -8,6 +8,7 @@ import ip from '@fakerjs/ip';
 import letter from '@fakerjs/letter';
 import string from '@fakerjs/string';
 import profession from '@fakerjs/profession';
+import superhero from '@fakerjs/superhero';
 
 class Faker {
     boolean() { return boolean(); }
@@ -20,6 +21,7 @@ class Faker {
     string(options) { return string(options); }
     profession(options) { return profession(options); }
     animal(options) { return animal(options); }
+    superhero() { return superhero(); }
 }
 
 let faker = new Faker();
