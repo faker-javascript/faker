@@ -38,7 +38,7 @@ The type of the made changes. Should be one of:
 * **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 
 ### Scope
-The scope could be anything specifying the place of the commit change. For example core, admin-plugin, translation etc...
+The scope could be anything specifying the place of the commit change. For example core, docs, etc...
 
 ### Subject
 The subject contains a succinct description of the change:
