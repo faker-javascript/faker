@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/faker",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A set of javascript packages that generates fake data for you.",
   "license": "MIT",
   "repository": "faker-javascript/faker",
@@ -14,8 +14,18 @@
   "engines": {
     "node": ">=12"
   },
+  "scripts": {
+    "test": "c8 ava; xo --space 4; tsd;"
+  },
+  "devDependencies": {
+    "ava": "^4.0.0",
+    "c8": "^7.11.0",
+		"tsd": "^0.19.1",
+		"xo": "^0.47.0"
+  },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "keywords": [
     "fakerjs",

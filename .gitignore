@@ -1,5 +1,6 @@
 # Global
 node_modules/
+coverage
 
 # OS Generated
 .DS_Store*

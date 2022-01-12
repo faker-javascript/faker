@@ -11,18 +11,50 @@ import profession from '@fakerjs/profession';
 import superhero from '@fakerjs/superhero';
 
 class Faker {
-    boolean() { return boolean(); }
-    integer(options) { return integer(options); }
-    float(options) { return float(options); }
-    age(options) { return age(options); }
-    gender(options) { return gender(options); }
-    ip() { return ip(); }
-    letter(options) { return letter(options); }
-    string(options) { return string(options); }
-    profession(options) { return profession(options); }
-    animal(options) { return animal(options); }
-    superhero() { return superhero(); }
+    boolean() {
+        return boolean();
+    }
+
+    integer(options) {
+        return integer(options);
+    }
+
+    float(options) {
+        return float(options);
+    }
+
+    age(options) {
+        return age(options);
+    }
+
+    gender(options) {
+        return gender(options);
+    }
+
+    ip() {
+        return ip();
+    }
+
+    letter(options) {
+        return letter(options);
+    }
+
+    string(options) {
+        return string(options);
+    }
+
+    profession(options) {
+        return profession(options);
+    }
+
+    animal(options) {
+        return animal(options);
+    }
+
+    superhero() {
+        return superhero();
+    }
 }
 
-let faker = new Faker();
+const faker = new Faker();
 export default faker;

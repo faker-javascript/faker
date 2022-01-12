@@ -1,3 +1,8 @@
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/faker-javascript/faker) (2022-01-13)
+* Added xo, tsd, c8.
+* Improved tests.
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/faker-javascript/faker) (2022-01-10)
 * Added new method `superhero` to generate fake superhero name value.
