@@ -48,3 +48,7 @@ test('faker ip return type to be string', t => {
 test('faker letter return type to be string', t => {
     t.is(typeof faker.letter(), 'string');
 });
+
+test('faker word return type to be string', t => {
+    t.is(typeof faker.word(), 'string');
+});

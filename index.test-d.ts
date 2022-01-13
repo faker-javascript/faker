@@ -12,3 +12,4 @@ expectType<string>(faker.ip());
 expectType<string>(faker.superhero());
 expectType<number>(faker.integer());
 expectType<number>(faker.float());
+expectType<string>(faker.word());

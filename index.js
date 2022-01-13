@@ -9,6 +9,7 @@ import letter from '@fakerjs/letter';
 import string from '@fakerjs/string';
 import profession from '@fakerjs/profession';
 import superhero from '@fakerjs/superhero';
+import word from '@fakerjs/word';
 
 class Faker {
     boolean() {
@@ -53,6 +54,10 @@ class Faker {
 
     superhero() {
         return superhero();
+    }
+
+    word(options) {
+        return word(options);
     }
 }
 

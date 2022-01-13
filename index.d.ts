@@ -30,6 +30,9 @@ interface OptionsProfession {
     rank?: boolean;
     locale?: string;
 }
+interface OptionsWord {
+    length?: number;
+}
 declare class Faker {
     boolean(): boolean;
     integer(options?: OptionsInteger): number;
@@ -42,6 +45,7 @@ declare class Faker {
     string(options?: OptionsString): string;
     profession(options?: OptionsProfession): string;
     superhero(): string;
+    word(options?: OptionsWord): string;
 }
 declare const faker: Faker;
 export default faker;
