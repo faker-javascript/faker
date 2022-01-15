@@ -1,3 +1,7 @@
+<a name="2.3.1"></a>
+# [2.3.1](https://github.com/faker-javascript/faker) (2022-01-15)
+* Typo updates.
+
 <a name="2.3.0"></a>
 # [2.3.0](https://github.com/faker-javascript/faker) (2022-01-14)
 * Added new method `word` to generate fake word value.
