@@ -52,3 +52,7 @@ test('faker letter return type to be string', t => {
 test('faker word return type to be string', t => {
     t.is(typeof faker.word(), 'string');
 });
+
+test('faker sentence return type to be string', t => {
+    t.is(typeof faker.sentence(), 'string');
+});

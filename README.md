@@ -33,5 +33,5 @@ faker.profession();
 [Browse all faker javascript packages](https://github.com/faker-javascript)
 
 ## License
-[The MIT License (MIT)](https://github.com/faker-javascript/faker/blob/master/LICENSE.txt)
+[The MIT License (MIT)](https://github.com/faker-javascript/faker/blob/master/LICENSE)
 Copyright (c) [Sergey Romanenko](https://github.com/Awilum)

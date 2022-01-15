@@ -33,6 +33,9 @@ interface OptionsProfession {
 interface OptionsWord {
     length?: number;
 }
+interface OptionsSentence {
+    words?: number;
+}
 declare class Faker {
     boolean(): boolean;
     integer(options?: OptionsInteger): number;
@@ -46,6 +49,7 @@ declare class Faker {
     profession(options?: OptionsProfession): string;
     superhero(): string;
     word(options?: OptionsWord): string;
+    sentence(options?: OptionsSentence): string;
 }
 declare const faker: Faker;
 export default faker;

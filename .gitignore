@@ -1,6 +1,7 @@
 # Global
 node_modules/
 coverage
+package-lock.json
 
 # OS Generated
 .DS_Store*

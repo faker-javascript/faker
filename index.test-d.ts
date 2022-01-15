@@ -13,3 +13,4 @@ expectType<string>(faker.superhero());
 expectType<number>(faker.integer());
 expectType<number>(faker.float());
 expectType<string>(faker.word());
+expectType<string>(faker.sentence());
