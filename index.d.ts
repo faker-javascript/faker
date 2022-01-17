@@ -41,6 +41,12 @@ interface OptionsParagraph {
     wordsMin?: number;
     wordsMax?: number;
 }
+interface OptionsDomain {
+    tld?: string;
+}
+interface OptionsEmail {
+    domain?: string;
+}
 declare class Faker {
     boolean(): boolean;
     integer(options?: OptionsInteger): number;
@@ -56,6 +62,8 @@ declare class Faker {
     word(options?: OptionsWord): string;
     sentence(options?: OptionsSentence): string;
     paragraph(options?: OptionsParagraph): string;
+    domain(options?: OptionsDomain): string;
+    email(options?: OptionsEmail): string;
 }
 declare const faker: Faker;
 export default faker;

@@ -60,3 +60,11 @@ test('faker sentence return type to be string', t => {
 test('faker paragraph return type to be string', t => {
     t.is(typeof faker.paragraph(), 'string');
 });
+
+test('faker domain return type to be string', t => {
+    t.is(typeof faker.domain(), 'string');
+});
+
+test('faker email return type to be string', t => {
+    t.is(typeof faker.email(), 'string');
+});

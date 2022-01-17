@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/faker",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "A set of javascript packages that generates fake data for you.",
   "license": "MIT",
   "repository": "faker-javascript/faker",
@@ -32,7 +32,10 @@
     "faker",
     "fake",
     "random",
-    "generator"
+    "generator",
+    "fake-generator",
+    "fake-data",
+    "fake-data-generator"
   ],
   "dependencies": {
     "@fakerjs/boolean": "^2",
@@ -48,6 +51,8 @@
     "@fakerjs/superhero": "^1",
     "@fakerjs/word": "^1",
     "@fakerjs/sentence": "^1",
-    "@fakerjs/paragraph": "^1"
+    "@fakerjs/paragraph": "^1",
+    "@fakerjs/domain": "^1",
+    "@fakerjs/email": "^1"
   }
 }

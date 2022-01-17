@@ -15,3 +15,5 @@ expectType<number>(faker.float());
 expectType<string>(faker.word());
 expectType<string>(faker.sentence());
 expectType<string>(faker.paragraph());
+expectType<string>(faker.domain());
+expectType<string>(faker.email());

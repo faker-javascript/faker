@@ -12,6 +12,8 @@ import superhero from '@fakerjs/superhero';
 import word from '@fakerjs/word';
 import sentence from '@fakerjs/sentence';
 import paragraph from '@fakerjs/paragraph';
+import domain from '@fakerjs/domain';
+import email from '@fakerjs/email';
 
 class Faker {
     boolean() {
@@ -68,6 +70,14 @@ class Faker {
 
     paragraph(options) {
         return paragraph(options);
+    }
+    
+    domain(options) {
+        return domain(options);
+    }
+
+    email(options) {
+        return email(options);
     }
 }
 

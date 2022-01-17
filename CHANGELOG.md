@@ -1,3 +1,8 @@
+<a name="2.6.0"></a>
+# [2.6.0](https://github.com/faker-javascript/faker) (2022-01-18)
+* Added new method `email` to generate fake email value.
+* Added new method `domain` to generate fake domain value.
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/faker-javascript/faker) (2022-01-17)
 * Added new method `paragraph` to generate fake paragraph value.
