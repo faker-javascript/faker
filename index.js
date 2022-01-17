@@ -11,6 +11,7 @@ import profession from '@fakerjs/profession';
 import superhero from '@fakerjs/superhero';
 import word from '@fakerjs/word';
 import sentence from '@fakerjs/sentence';
+import paragraph from '@fakerjs/paragraph';
 
 class Faker {
     boolean() {
@@ -63,6 +64,10 @@ class Faker {
 
     sentence(options) {
         return sentence(options);
+    }
+
+    paragraph(options) {
+        return paragraph(options);
     }
 }
 

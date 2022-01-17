@@ -36,6 +36,11 @@ interface OptionsWord {
 interface OptionsSentence {
     words?: number;
 }
+interface OptionsParagraph {
+    sentences?: number;
+    wordsMin?: number;
+    wordsMax?: number;
+}
 declare class Faker {
     boolean(): boolean;
     integer(options?: OptionsInteger): number;
@@ -50,6 +55,7 @@ declare class Faker {
     superhero(): string;
     word(options?: OptionsWord): string;
     sentence(options?: OptionsSentence): string;
+    paragraph(options?: OptionsParagraph): string;
 }
 declare const faker: Faker;
 export default faker;

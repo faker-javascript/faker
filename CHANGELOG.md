@@ -1,3 +1,7 @@
+<a name="2.5.0"></a>
+# [2.5.0](https://github.com/faker-javascript/faker) (2022-01-17)
+* Added new method `paragraph` to generate fake paragraph value.
+
 <a name="2.4.0"></a>
 # [2.4.0](https://github.com/faker-javascript/faker) (2022-01-15)
 * Added new method `sentence` to generate fake sentence value.

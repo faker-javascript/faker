@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/faker",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "A set of javascript packages that generates fake data for you.",
   "license": "MIT",
   "repository": "faker-javascript/faker",
@@ -47,6 +47,7 @@
     "@fakerjs/profession": "^2",
     "@fakerjs/superhero": "^1",
     "@fakerjs/word": "^1",
-    "@fakerjs/sentence": "^1"
+    "@fakerjs/sentence": "^1",
+    "@fakerjs/paragraph": "^1"
   }
 }
