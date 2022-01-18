@@ -71,8 +71,8 @@ declare class Faker {
     paragraph(options?: OptionsParagraph): string;
     domain(options?: OptionsDomain): string;
     email(options?: OptionsEmail): string;
-    firstname(options?: OptionsFirstname): string;
-    lastname(options?: OptionsLastname): string;
+    firstName(options?: OptionsFirstname): string;
+    lastName(options?: OptionsLastname): string;
 }
 declare const faker: Faker;
 export default faker;

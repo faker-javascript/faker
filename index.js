@@ -73,7 +73,7 @@ class Faker {
     paragraph(options) {
         return paragraph(options);
     }
-    
+
     domain(options) {
         return domain(options);
     }
