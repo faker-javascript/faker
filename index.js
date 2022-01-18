@@ -14,6 +14,8 @@ import sentence from '@fakerjs/sentence';
 import paragraph from '@fakerjs/paragraph';
 import domain from '@fakerjs/domain';
 import email from '@fakerjs/email';
+import firstName from '@fakerjs/firstname';
+import lastName from '@fakerjs/lastname';
 
 class Faker {
     boolean() {
@@ -78,6 +80,14 @@ class Faker {
 
     email(options) {
         return email(options);
+    }
+
+    firstName(options) {
+        return firstName(options);
+    }
+
+    lastName(options) {
+        return lastName(options);
     }
 }
 

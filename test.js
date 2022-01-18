@@ -68,3 +68,11 @@ test('faker domain return type to be string', t => {
 test('faker email return type to be string', t => {
     t.is(typeof faker.email(), 'string');
 });
+
+test('faker firstName return type to be string', t => {
+    t.is(typeof faker.firstName(), 'string');
+});
+
+test('faker lastName return type to be string', t => {
+    t.is(typeof faker.lastName(), 'string');
+});

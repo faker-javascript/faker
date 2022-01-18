@@ -17,3 +17,5 @@ expectType<string>(faker.sentence());
 expectType<string>(faker.paragraph());
 expectType<string>(faker.domain());
 expectType<string>(faker.email());
+expectType<string>(faker.firstName());
+expectType<string>(faker.lastName());
