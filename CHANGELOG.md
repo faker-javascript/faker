@@ -1,6 +1,6 @@
 <a name="2.7.0"></a>
 # [2.7.0](https://github.com/faker-javascript/faker) (2022-01-19)
-* Added new method `firstname` to generate fake fist name value.
+* Added new method `firstname` to generate fake first name value.
 * Added new method `lastname` to generate fake last name value.
 
 <a name="2.6.0"></a>
