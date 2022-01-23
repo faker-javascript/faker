@@ -54,6 +54,10 @@ interface OptionsFirstname {
 interface OptionsLastname {
     locale?: string;
 }
+interface OptionsUrl {
+    protocol?: string;
+    tld?: string;
+}
 declare class Faker {
     boolean(): boolean;
     integer(options?: OptionsInteger): number;
@@ -70,6 +74,9 @@ declare class Faker {
     sentence(options?: OptionsSentence): string;
     paragraph(options?: OptionsParagraph): string;
     domain(options?: OptionsDomain): string;
+    url(options?: OptionsUrl): string;
+    browser(): string;
+    tld(): string;
     email(options?: OptionsEmail): string;
     firstName(options?: OptionsFirstname): string;
     lastName(options?: OptionsLastname): string;

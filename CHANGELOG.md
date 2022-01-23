@@ -1,3 +1,9 @@
+<a name="2.8.0"></a>
+# [2.8.0](https://github.com/faker-javascript/faker) (2022-01-23)
+* Added new method `tld` to generate fake tld value.
+* Added new method `browser` to generate fake browser value.
+* Added new method `url` to generate fake url value.
+
 <a name="2.7.0"></a>
 # [2.7.0](https://github.com/faker-javascript/faker) (2022-01-19)
 * Added new method `firstname` to generate fake first name value.

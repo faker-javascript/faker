@@ -76,3 +76,15 @@ test('faker firstName return type to be string', t => {
 test('faker lastName return type to be string', t => {
     t.is(typeof faker.lastName(), 'string');
 });
+
+test('faker url return type to be string', t => {
+    t.is(typeof faker.url(), 'string');
+});
+
+test('faker tld return type to be string', t => {
+    t.is(typeof faker.tld(), 'string');
+});
+
+test('faker browser return type to be string', t => {
+    t.is(typeof faker.browser(), 'string');
+});

@@ -13,6 +13,9 @@ import word from '@fakerjs/word';
 import sentence from '@fakerjs/sentence';
 import paragraph from '@fakerjs/paragraph';
 import domain from '@fakerjs/domain';
+import url from '@fakerjs/url';
+import tld from '@fakerjs/tld';
+import browser from '@fakerjs/browser';
 import email from '@fakerjs/email';
 import firstName from '@fakerjs/firstname';
 import lastName from '@fakerjs/lastname';
@@ -88,6 +91,18 @@ class Faker {
 
     lastName(options) {
         return lastName(options);
+    }
+    
+    browser() {
+        return browser();
+    }
+
+    url(options) {
+        return url(options);
+    }
+
+    tld() {
+        return tld();
     }
 }
 
