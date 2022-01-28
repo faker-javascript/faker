@@ -21,6 +21,12 @@ import firstName from '@fakerjs/firstname';
 import lastName from '@fakerjs/lastname';
 
 class Faker {
+    options = {};
+
+    constructor(options) {
+        this.options = options || {};
+    }
+
     boolean() {
         return boolean();
     }
@@ -38,7 +44,7 @@ class Faker {
     }
 
     gender(options) {
-        return gender(options);
+        return gender({locale: this.options.locale || 'en_US', ...options});
     }
 
     ip() {
@@ -46,7 +52,7 @@ class Faker {
     }
 
     letter(options) {
-        return letter(options);
+        return letter({locale: this.options.locale || 'en_US', ...options});
     }
 
     string(options) {
@@ -54,11 +60,11 @@ class Faker {
     }
 
     profession(options) {
-        return profession(options);
+        return profession({locale: this.options.locale || 'en_US', ...options});
     }
 
     animal(options) {
-        return animal(options);
+        return animal({locale: this.options.locale || 'en_US', ...options});
     }
 
     superhero() {
@@ -86,13 +92,13 @@ class Faker {
     }
 
     firstName(options) {
-        return firstName(options);
+        return firstName({locale: this.options.locale || 'en_US', ...options});
     }
 
     lastName(options) {
-        return lastName(options);
+        return lastName({locale: this.options.locale || 'en_US', ...options});
     }
-    
+
     browser() {
         return browser();
     }
@@ -106,5 +112,6 @@ class Faker {
     }
 }
 
-const faker = new Faker();
-export default faker;
+export default function faker(options) {
+    return new Faker(options);
+}

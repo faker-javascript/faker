@@ -58,6 +58,9 @@ interface OptionsUrl {
     protocol?: string;
     tld?: string;
 }
+interface OptionsFaker {
+    locale?: string;
+}
 declare class Faker {
     boolean(): boolean;
     integer(options?: OptionsInteger): number;
@@ -81,5 +84,4 @@ declare class Faker {
     firstName(options?: OptionsFirstname): string;
     lastName(options?: OptionsLastname): string;
 }
-declare const faker: Faker;
-export default faker;
+export default function faker(options?: OptionsFaker): Faker;
