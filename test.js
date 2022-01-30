@@ -88,3 +88,7 @@ test('faker tld return type to be string', t => {
 test('faker browser return type to be string', t => {
     t.is(typeof faker().browser(), 'string');
 });
+
+test('faker game return type to be string', t => {
+    t.is(typeof faker().game().title(), 'string');
+});
