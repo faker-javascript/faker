@@ -22,4 +22,4 @@ expectType<string>(faker().browser());
 expectType<string>(faker().email());
 expectType<string>(faker().firstName());
 expectType<string>(faker().lastName());
-expectType<string>(faker().game().title());
+expectType<any>(faker().game());

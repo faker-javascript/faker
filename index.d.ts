@@ -86,6 +86,6 @@ declare class Faker {
     email(options?: OptionsEmail): string;
     firstName(options?: OptionsFirstname): string;
     lastName(options?: OptionsLastname): string;
-    game(options?: OptionsGame): string;
+    game(options?: OptionsGame): any;
 }
 export default function faker(options?: OptionsFaker): Faker;
