@@ -64,6 +64,9 @@ interface OptionsGame {
 interface OptionsFaker {
     locale?: string;
 }
+interface OptionsHouse {
+    locale?: string;
+}
 declare class Faker {
     boolean(): boolean;
     integer(options?: OptionsInteger): number;
@@ -87,5 +90,6 @@ declare class Faker {
     firstName(options?: OptionsFirstname): string;
     lastName(options?: OptionsLastname): string;
     game(options?: OptionsGame): any;
+    house(options?: OptionsHouse): any;
 }
 export default function faker(options?: OptionsFaker): Faker;

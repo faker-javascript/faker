@@ -59,6 +59,7 @@
     "@fakerjs/email": "^1",
     "@fakerjs/firstname": "^1",
     "@fakerjs/lastname": "^1",
-    "@fakerjs/game": "^1"
+    "@fakerjs/game": "^1",
+    "@fakerjs/house": "^1"
   }
 }
