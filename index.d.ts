@@ -58,6 +58,9 @@ interface OptionsUrl {
     protocol?: string;
     tld?: string;
 }
+interface OptionsGame {
+    locale?: string;
+}
 interface OptionsFaker {
     locale?: string;
 }
@@ -83,5 +86,6 @@ declare class Faker {
     email(options?: OptionsEmail): string;
     firstName(options?: OptionsFirstname): string;
     lastName(options?: OptionsLastname): string;
+    game(options?: OptionsGame): string;
 }
 export default function faker(options?: OptionsFaker): Faker;

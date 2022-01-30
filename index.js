@@ -19,6 +19,7 @@ import browser from '@fakerjs/browser';
 import email from '@fakerjs/email';
 import firstName from '@fakerjs/firstname';
 import lastName from '@fakerjs/lastname';
+import game from '@fakerjs/game';
 
 class Faker {
     options = {};
@@ -65,6 +66,10 @@ class Faker {
 
     animal(options) {
         return animal({locale: this.options.locale || 'en_US', ...options});
+    }
+
+    game(options) {
+        return game({locale: this.options.locale || 'en_US', ...options});
     }
 
     superhero() {
