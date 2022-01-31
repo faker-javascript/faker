@@ -1,6 +1,9 @@
-<h1 align="center">Faker</h1>
+<img src="faker.png" alt="Faker" align="center" title="A set of javascript packages that generates fake data for you">
+
+<br>
+
 <p align="center">
-A set of javascript packages that generates fake data for you.
+Faker - a set of javascript packages that generates fake data for you.
 </p>
 
 <p align="center">
