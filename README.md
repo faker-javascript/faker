@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-Faker - a set of javascript packages that generates fake data for you.
+A set of javascript packages that generates fake data for you.
 </p>
 
 <p align="center">
@@ -12,8 +12,16 @@ Faker - a set of javascript packages that generates fake data for you.
 
 ## Install
 
+#### Install all faker packages.
+
+npm
 ```
-$ npm install --save @fakerjs/faker
+npm install @fakerjs/faker --save-dev
+```
+
+yarn
+```
+yarn add @fakerjs/faker -D
 ```
 
 ## Usage
