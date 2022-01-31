@@ -24,10 +24,10 @@ import house from '@fakerjs/house';
 import sport from '@fakerjs/sport';
 
 class Faker {
-    options = {};
+    _options = {};
 
     constructor(options) {
-        this.options = options || {};
+        this._options = options || {};
     }
 
     boolean() {
@@ -47,7 +47,7 @@ class Faker {
     }
 
     gender(options) {
-        return gender({locale: this.options.locale || 'en_US', ...options});
+        return gender({locale: this._options.locale || 'en_US', ...options});
     }
 
     ip() {
@@ -55,7 +55,7 @@ class Faker {
     }
 
     letter(options) {
-        return letter({locale: this.options.locale || 'en_US', ...options});
+        return letter({locale: this._options.locale || 'en_US', ...options});
     }
 
     string(options) {
@@ -63,23 +63,23 @@ class Faker {
     }
 
     profession(options) {
-        return profession({locale: this.options.locale || 'en_US', ...options});
+        return profession({locale: this._options.locale || 'en_US', ...options});
     }
 
     animal(options) {
-        return animal({locale: this.options.locale || 'en_US', ...options});
+        return animal({locale: this._options.locale || 'en_US', ...options});
     }
 
     game(options) {
-        return game({locale: this.options.locale || 'en_US', ...options});
+        return game({locale: this._options.locale || 'en_US', ...options});
     }
 
     house(options) {
-        return house({locale: this.options.locale || 'en_US', ...options});
+        return house({locale: this._options.locale || 'en_US', ...options});
     }
 
     sport(options) {
-        return sport({locale: this.options.locale || 'en_US', ...options});
+        return sport({locale: this._options.locale || 'en_US', ...options});
     }
 
     superhero() {
@@ -107,11 +107,11 @@ class Faker {
     }
 
     firstName(options) {
-        return firstName({locale: this.options.locale || 'en_US', ...options});
+        return firstName({locale: this._options.locale || 'en_US', ...options});
     }
 
     lastName(options) {
-        return lastName({locale: this.options.locale || 'en_US', ...options});
+        return lastName({locale: this._options.locale || 'en_US', ...options});
     }
 
     browser() {

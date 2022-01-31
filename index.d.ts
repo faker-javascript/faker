@@ -61,16 +61,17 @@ interface OptionsUrl {
 interface OptionsGame {
     locale?: string;
 }
-interface OptionsFaker {
-    locale?: string;
-}
 interface OptionsHouse {
     locale?: string;
 }
 interface OptionsSport {
     locale?: string;
 }
+interface OptionsFaker {
+    locale?: string;
+}
 declare class Faker {
+    _options?: OptionsFaker;
     boolean(): boolean;
     integer(options?: OptionsInteger): number;
     float(options?: OptionsFloat): number;

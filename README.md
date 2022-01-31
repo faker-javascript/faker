@@ -18,13 +18,13 @@ $ npm install --save @fakerjs/faker
 ```js
 import faker from '@fakerjs/faker';
 
-faker.animal();
+faker().animal();
 //=> Snow Leopard
 
-faker.gender();
+faker().gender();
 //=> Female
 
-faker.profession();
+faker().profession();
 //=> Software Engineer
 
 // etc...
