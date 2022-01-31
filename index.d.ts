@@ -96,5 +96,6 @@ declare class Faker {
     game(options?: OptionsGame): any;
     house(options?: OptionsHouse): any;
     sport(options?: OptionsSport): any;
+    blood(): any;
 }
 export default function faker(options?: OptionsFaker): Faker;

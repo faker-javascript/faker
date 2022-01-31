@@ -22,6 +22,7 @@ import lastName from '@fakerjs/lastname';
 import game from '@fakerjs/game';
 import house from '@fakerjs/house';
 import sport from '@fakerjs/sport';
+import blood from '@fakerjs/blood';
 
 class Faker {
     _options = {};
@@ -84,6 +85,10 @@ class Faker {
 
     superhero() {
         return superhero();
+    }
+
+    blood() {
+        return blood();
     }
 
     word(options) {

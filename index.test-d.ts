@@ -25,3 +25,4 @@ expectType<string>(faker().lastName());
 expectType<any>(faker().game());
 expectType<any>(faker().house());
 expectType<any>(faker().sport());
+expectType<any>(faker().blood());

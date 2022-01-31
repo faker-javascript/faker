@@ -61,6 +61,7 @@
     "@fakerjs/lastname": "^1",
     "@fakerjs/game": "^1",
     "@fakerjs/house": "^1",
-    "@fakerjs/sport": "^1"
+    "@fakerjs/sport": "^1",
+    "@fakerjs/blood": "^1"
   }
 }
