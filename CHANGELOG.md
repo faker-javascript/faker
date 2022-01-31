@@ -1,3 +1,14 @@
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/faker-javascript/faker) (2022-01-31)
+* Added new package `game` to generate fake game value.
+* Added new package `house` to generate fake house value.
+* Added new package `sport` to generate fake house value.
+* Added new package `blood` to generate fake house value.
+
+### BREAKING CHANGES
+
+* Use new `faker` function to access all faker packages methods instead of old `faker` object.
+
 <a name="2.8.0"></a>
 # [2.8.0](https://github.com/faker-javascript/faker) (2022-01-23)
 * Added new method `tld` to generate fake tld value.
