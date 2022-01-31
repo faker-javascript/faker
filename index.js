@@ -21,6 +21,7 @@ import firstName from '@fakerjs/firstname';
 import lastName from '@fakerjs/lastname';
 import game from '@fakerjs/game';
 import house from '@fakerjs/house';
+import sport from '@fakerjs/sport';
 
 class Faker {
     options = {};
@@ -75,6 +76,10 @@ class Faker {
 
     house(options) {
         return house({locale: this.options.locale || 'en_US', ...options});
+    }
+
+    sport(options) {
+        return sport({locale: this.options.locale || 'en_US', ...options});
     }
 
     superhero() {

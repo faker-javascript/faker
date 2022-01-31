@@ -96,3 +96,7 @@ test('faker game return type to be string', t => {
 test('faker house return type to be string', t => {
     t.is(typeof faker().house().room(), 'string');
 });
+
+test('faker sport return type to be string', t => {
+    t.is(typeof faker().sport().unusual(), 'string');
+});
