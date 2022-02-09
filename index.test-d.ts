@@ -26,3 +26,5 @@ expectType<any>(faker().game());
 expectType<any>(faker().house());
 expectType<any>(faker().sport());
 expectType<any>(faker().blood());
+expectType<any>(faker().computer());
+expectType<any>(faker().camera());

@@ -104,3 +104,11 @@ test('faker sport return type to be string', t => {
 test('faker blood return type to be string', t => {
     t.is(typeof faker().blood().group(), 'string');
 });
+
+test('faker camera return type to be string', t => {
+    t.is(typeof faker().camera().brand(), 'string');
+});
+
+test('faker computer return type to be string', t => {
+    t.is(typeof faker().computer().type(), 'string');
+});

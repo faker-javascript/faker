@@ -67,6 +67,12 @@ interface OptionsHouse {
 interface OptionsSport {
     locale?: string;
 }
+interface OptionsComputer {
+    locale?: string;
+}
+interface OptionsCamera {
+    locale?: string;
+}
 interface OptionsFaker {
     locale?: string;
 }
@@ -96,6 +102,8 @@ declare class Faker {
     game(options?: OptionsGame): any;
     house(options?: OptionsHouse): any;
     sport(options?: OptionsSport): any;
+    computer(options?: OptionsComputer): any;
+    camera(options?: OptionsCamera): any;
     blood(): any;
 }
 export default function faker(options?: OptionsFaker): Faker;

@@ -23,6 +23,8 @@ import game from '@fakerjs/game';
 import house from '@fakerjs/house';
 import sport from '@fakerjs/sport';
 import blood from '@fakerjs/blood';
+import computer from '@fakerjs/computer';
+import camera from '@fakerjs/camera';
 
 class Faker {
     _options = {};
@@ -117,6 +119,14 @@ class Faker {
 
     lastName(options) {
         return lastName({locale: this._options.locale || 'en_US', ...options});
+    }
+
+    computer(options) {
+        return computer({locale: this._options.locale || 'en_US', ...options});
+    }
+
+    camera(options) {
+        return camera({locale: this._options.locale || 'en_US', ...options});
     }
 
     browser() {
